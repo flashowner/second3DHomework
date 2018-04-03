@@ -199,15 +199,15 @@ Hashtable 类代表了一系列基于键的哈希代码组织起来的键/值对
   了物体相对于世界或者是它的父对象的位置，也就是相对位置，rotation的值说明了物体在x轴，y<br>
   轴，z轴的旋转角度<br><br>
 * 实现物体的抛物线运动<br>
-![](https://github.com/flashowner/second3DHomework/blob/master/%E5%9B%BE%E7%89%871.PNG)
+![](https://github.com/flashowner/second3DHomework/blob/master/%E5%9B%BE%E7%89%871.PNG) <br>
 第一种方法是通过改变物体的position来实现抛物线的运动的，在这里可以构造一个Vector向量，其中x轴<br>
 方向的值是每一帧变化的count，y轴方向的值是count * count, z轴的值为0。这样可以构造一个y = x^2的抛物线。<br>
 第二种方法是是通过transform属性的translate方法来实现水平方向的位移，x，y，z轴的值与第一种方法相同，<br>
 通过许多细小的直线组成一个平滑的抛物线。<br>
 第三种方法是通过给物体添加刚体部件，通过AddForce方法来给物体施加x轴和y轴方向的力实现曲线运动也就是抛物线。<br>
 <br>
-* 写一个程序，实现一个完整的太阳系， 其他星球围绕太阳的转速必须不一样，且不在一个法平面上。
+* 写一个程序，实现一个完整的太阳系， 其他星球围绕太阳的转速必须不一样，且不在一个法平面上。<br>
 在这里我是用MVC架构实现的，首先是按照各个行星的大小和样子制成模型，放到Resources文件夹下的Prefabs文件夹。<br>
-![](https://github.com/flashowner/second3DHomework/blob/master/%E5%9B%BE%E7%89%872.PNG)
+![](https://github.com/flashowner/second3DHomework/blob/master/%E5%9B%BE%E7%89%872.PNG) <br>
 然后在脚本里动态生成各个行星，并且用MoveAround方法使得它们按照不同的法向量围绕太阳转，同时将MoveAround<br>
 的target设为自己的transform属性的position, 这样就可以有自转的效果了。
