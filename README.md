@@ -283,4 +283,5 @@ GenGameObject用来创建游戏对象和处理对象运动，它也注册在 Sce
 
 * 游戏图片 <br>
 ![](https://github.com/flashowner/second3DHomework/blob/master/%E5%9B%BE%E7%89%8712.PNG) <br>
-代码在Scripts文件夹里<br>
+代码和资源在：<br>
+![跳转通道](https://github.com/flashowner/Resources)<br>
