@@ -206,8 +206,11 @@ Hashtable 类代表了一系列基于键的哈希代码组织起来的键/值对
 通过许多细小的直线组成一个平滑的抛物线。<br>
 第三种方法是通过给物体添加刚体部件，通过AddForce方法来给物体施加x轴和y轴方向的力实现曲线运动也就是抛物线。<br>
 <br>
+
 * 写一个程序，实现一个完整的太阳系， 其他星球围绕太阳的转速必须不一样，且不在一个法平面上。<br>
 在这里我是用MVC架构实现的，首先是按照各个行星的大小和样子制成模型，放到Resources文件夹下的Prefabs文件夹。<br>
 ![](https://github.com/flashowner/second3DHomework/blob/master/%E5%9B%BE%E7%89%872.PNG) <br>
 然后在脚本里动态生成各个行星，并且用MoveAround方法使得它们按照不同的法向量围绕太阳转，同时将MoveAround<br>
-的target设为自己的transform属性的position, 这样就可以有自转的效果了。
+的target设为自己的transform属性的position, 这样就可以有自转的效果了。<br>
+
+
