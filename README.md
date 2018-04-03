@@ -264,5 +264,8 @@ Hashtable 类代表了一系列基于键的哈希代码组织起来的键/值对
 ![](https://github.com/flashowner/second3DHomework/blob/master/%E5%9B%BE%E7%89%876.PNG) <br>
 ![](https://github.com/flashowner/second3DHomework/blob/master/%E5%9B%BE%E7%89%877.PNG) <br>
 
-* 在 GenGameObjects 中创建 长方形、正方形、球 及其色彩代表游戏中的对象。
+* 在 GenGameObjects 中创建 长方形、正方形、球 及其色彩代表游戏中的对象 <br>
 创建的对象： <br>
+![](https://github.com/flashowner/second3DHomework/blob/master/%E5%9B%BE%E7%89%878.PNG) <br>
+
+* 使用 C# 集合类型 有效组织对象 <br>
