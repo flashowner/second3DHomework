@@ -275,3 +275,11 @@ Hashtable 类代表了一系列基于键的哈希代码组织起来的键/值对
 ![](https://github.com/flashowner/second3DHomework/blob/master/%E5%9B%BE%E7%89%8710.PNG) <br>
 
 * 使用课件架构图编程 <br>
+![](https://github.com/flashowner/second3DHomework/blob/master/%E5%9B%BE%E7%89%8711.PNG) <br>
+UserInterface用来创建GUI对象接受玩家动作，处理GUI事件，使用 IUserActions 接口控制游戏。<br>
+SceneController是单实例对象，用来处理对象间通信和实现 IUserActions 接口。<br>
+BaseCode用来保存游戏名称和游戏简介，它注册在 SceneController 中<br>
+GenGameObject用来创建游戏对象和处理对象运动，它也注册在 SceneController 中。IUserActions 接口通过与 GenGameObject 互动完成游戏逻辑<br>
+
+* 游戏图片以及部分代码 <br>
+
