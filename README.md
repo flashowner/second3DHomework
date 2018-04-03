@@ -269,3 +269,6 @@ Hashtable 类代表了一系列基于键的哈希代码组织起来的键/值对
 ![](https://github.com/flashowner/second3DHomework/blob/master/%E5%9B%BE%E7%89%878.PNG) <br>
 
 * 使用 C# 集合类型 有效组织对象 <br>
+![](https://github.com/flashowner/second3DHomework/blob/master/%E5%9B%BE%E7%89%879.PNG) <br>
+
+* 整个游戏仅 主摄像机 和 一个 Empty 对象 <br>
